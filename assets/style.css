@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: var(--primary-color);
+    background-color: white;
 }
 
 /*Navigation Styling*/
@@ -85,3 +85,185 @@ header nav ul li a{
 }
 
 /*Navigation Styling End*/
+
+.code-img{
+    background-image: url("../assets\Images\code.jpg");
+    background-size: cover;
+    background-position: 80%;
+    width: 1300px;
+    height: 600px;
+    margin: 20px;
+    border: var(--secondary-color) solid 5px;
+}
+
+/*About Me Style Begin*/
+
+.developer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.developer h3{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.developer h2{
+    color: var(--secondary-color);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.developer div{
+    font-size: 20px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    height: 400px;
+    width: 1000px;
+    border: var(--secondary-color) solid 5px;
+}
+
+.developer p{
+    margin: 20px;
+}
+
+span{
+    color: red;
+}
+
+
+/*About Me Style End*/
+
+/*Work Section Style*/
+
+.work-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-section div{
+    background-color: var(--tertiary-color);
+    border: var(--secondary-color) solid 5px;
+}
+
+.work-section h2{
+    font-size: 50px;
+    color:var(--secondary-color);
+    margin:20px;
+}
+
+.work-section article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:var(--primary-color);
+    border: var(--secondary-color) solid 5px;
+    margin: 20px;
+}
+
+
+
+.big-card{
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    height: 400px;
+    width: 1000px;
+    margin:20px;
+    border:var(--secondary-color) solid 5px;
+}
+
+.small-card{
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    height: 200px;
+    width: 500px;
+    margin:20px;
+    
+}
+
+/*End Work Section Style*/
+
+/*Start Resume Section Style*/
+
+.professional{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.professional article{
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    border: var(--secondary-color) solid 5px;
+    height: 400px;
+    width: 1000px;
+}
+
+.professional h2{
+    color:var(--secondary-color);
+    font-size: 36px;
+    margin: 20px;
+}
+
+/*End Resume Section Style*/
+
+/*Begin Footer Section Style*/
+
+footer{
+    background-color: var(--secondary-color);
+    color: #d9d2e9;
+    display:flex;
+    justify-content: space-between;
+    margin:none;
+    background-size: cover;
+}
+
+.connect h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--tertiary-color);
+    margin: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-self: center;
+    margin-left: 20px ;
+    border: solid var(--tertiary-color);
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+.connect ul{
+    font-weight: bold;
+    font-size: 10px;
+    color: var(--tertiary-color);
+    margin: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-self: center;
+    margin-left: 20px ;
+    border: solid var(--tertiary-color);
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+.connect ul li{
+    margin: 20px;
+}
+
+}
+
