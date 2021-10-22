@@ -211,7 +211,8 @@ span{
 
 .professional article{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     background-color: var(--tertiary-color);
     border: var(--secondary-color) solid 5px;
     height: 400px;
@@ -219,9 +220,18 @@ span{
 }
 
 .professional h2{
+    display: flex;
+    justify-content: center;
     color:var(--secondary-color);
     font-size: 36px;
     margin: 20px;
+}
+
+.resume{
+    display: flex;
+    font-size: 20px;
+    align-self:center;
+    margin-bottom: 70px;
 }
 
 /*End Resume Section Style*/
@@ -266,6 +276,23 @@ footer{
 .connect ul li{
     margin: 20px;
 }
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+   
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+   
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    
+  }
+
 
 
 
